@@ -2,12 +2,11 @@
 
 ## Topics To Learn
   ### Mathematical Concepts
-
-    * Scoring
-    * Probability Basics
-    * Markov Chains
-    * Variance vs. Overfitting
-    * Dimensionality Reduction
+    - Scoring
+    - Probability Basics
+    - Markov Chains
+    - Variance vs. Overfitting
+    - Dimensionality Reduction
 
   ### Algorithms
     * Naive Bayes
