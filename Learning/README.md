@@ -27,6 +27,10 @@
         * Long / Short Term Memory
         * Auto Encoder
 
+  ### Graphics
+    * OpenCV
+    * I don't know much here, I'll put more when/if I do
+
   ### Visualization
 
 ## Packages / Tooling to Learn
