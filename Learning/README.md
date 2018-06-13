@@ -2,7 +2,7 @@
 
 ## Topics To Learn
   ### Keywords / Vocab
-    * [Reference](Vocab.md)
+  * [Reference](Vocab.md)
 
   ### Mathematical Concepts
     * [Scoring](Math/Scoring.md)
