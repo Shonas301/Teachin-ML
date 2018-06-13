@@ -26,6 +26,7 @@
         * Feed Forward
         * Long / Short Term Memory
         * Auto Encoder
+        * Deep Learning
 
   ### Graphics
     * OpenCV
@@ -48,3 +49,7 @@
   ### Numpy
 
   ### Scipy (Optional)
+
+## Books
+  For any resources listed below, Email or Message me and we can arrange lending
+  * Python Machine Learning - Sebastian Rashka
