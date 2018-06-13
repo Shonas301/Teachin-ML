@@ -2,6 +2,7 @@
 
 ## Topics To Learn
   ### Mathematical Concepts
+
     * Scoring
     * Probability Basics
     * Markov Chains
