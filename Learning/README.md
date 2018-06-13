@@ -50,6 +50,8 @@
 
   ### Scipy (Optional)
 
-## Books
+## Books / Papers
   For any resources listed below, Email or Message me and we can arrange lending
   * Python Machine Learning - Sebastian Rashka
+
+## Popular Projects or Commercial Successes
