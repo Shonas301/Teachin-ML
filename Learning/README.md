@@ -1,22 +1,21 @@
 # Learning Resources
 
 ## Topics To Learn
+  ### Keywords / Vocab
+    * [Reference](Vocab.md)
+
   ### Mathematical Concepts
-    * Scoring
-    * Probability Basics
-    * Markov Chains
-    * Variance vs. Overfitting
-    * Dimensionality Reduction
+    * [Scoring](Math/Scoring.md)
+    * [Probability Basics](Math/Probability.md)
+    * [Markov Chains](Math/MarkovChains.md)
+    * [Variance vs. Overfitting](Math/Metrics.md)
+    * [Dimensionality Reduction](Math/Dimensionality.md)
 
   ### Algorithms
     * Naive Bayes
-      //TODO
     * KNN
-      //TODO
     * Alternative Clustering
-        //TODO
     * Linear Regression
-      //TODO
     * Decision Trees
     * SVM 
     * Random Forests
