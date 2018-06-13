@@ -5,31 +5,31 @@
   * [Reference](Vocab.md)
 
   ### Mathematical Concepts
-    * [Scoring](Math/Scoring.md)
-    * [Probability Basics](Math/Probability.md)
-    * [Markov Chains](Math/MarkovChains.md)
-    * [Variance vs. Overfitting](Math/Metrics.md)
-    * [Dimensionality Reduction](Math/Dimensionality.md)
+  * [Scoring](Math/Scoring.md)
+  * [Probability Basics](Math/Probability.md)
+  * [Markov Chains](Math/MarkovChains.md)
+  * [Variance vs. Overfitting](Math/Metrics.md)
+  * [Dimensionality Reduction](Math/Dimensionality.md)
 
   ### Algorithms
-    * Naive Bayes
-    * KNN
-    * Alternative Clustering
-    * Linear Regression
-    * Decision Trees
-    * SVM 
-    * Random Forests
-    * Neural Networks
-        * Perceptron
-        * Recurrent
-        * Feed Forward
-        * Long / Short Term Memory
-        * Auto Encoder
-        * Deep Learning
+  * Naive Bayes
+  * KNN
+  * Alternative Clustering
+  * Linear Regression
+  * Decision Trees
+  * SVM 
+  * Random Forests
+  * Neural Networks
+    * Perceptron
+    * Recurrent
+    * Feed Forward
+    * Long / Short Term Memory
+    * Auto Encoder
+    * Deep Learning
 
   ### Graphics
-    * OpenCV
-    * I don't know much here, I'll put more when/if I do
+  * OpenCV
+  * I don't know much here, I'll put more when/if I do
 
   ### Visualization
 
