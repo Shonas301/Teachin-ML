@@ -1,0 +1,44 @@
+\documentclass{article}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\newcommand*\Heq{\ensuremath{\overset{\kern2pt H}{=}}}
+\usepackage{amsfonts}
+\usepackage[margin=1in]{geometry}
+\usepackage[mathscr]{euscript}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\begin{document}
+\title{Naive Bayes}
+\author{Jason Shipp}
+\maketitle
+
+\section*{Concept}
+In an ideal world the value of any given feature would be totally independent
+from the value of another feature for a given data point. If this were the case
+we could use Bayes Law/Rule to compute the missing / predicted value with
+certainty after working out the subsequent relationship between the features. As
+it stands however this is not the case, and frequently there are complex
+underlying relationships in our data that are impossible to model on computers.
+It can, however, be usefult to pretend that these relationships are independent
+and apply Bayes Law anyway. This is where Naive Bayes comes in! 
+
+\subsection*{Multinomial Naive Bayes}
+
+
+\section*{Math Involved}
+
+\subsection*{Bayes Rule} \\
+\begin{equation}
+  \text{Let } x = (x_1, x_2, ..., x_n) \\
+  p(C_k | x) = \frac{p(C_k)p(x | C_k)}{p(x)}\\
+  \text{Read } p(y|x) \text{as the probility of y given that x has occurred}
+\end{equation}
+
+\subsection*{Naive Bayes Assumption}
+\begin{equation}
+  C_k = argmax p(C_k)\prod_{i=1}^{n}p(x_k | C_k)
+\end{equation}
+
+\section*{Code}
+\subsection*{Scikit-Learn}
+% TODO block off correct area
+\lstinputlisting[language=Python]{../Code/NaiveBayes.py} 
