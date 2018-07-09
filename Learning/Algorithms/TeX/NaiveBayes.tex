@@ -6,6 +6,7 @@
 \usepackage[mathscr]{euscript}
 \usepackage{enumitem}
 \usepackage{amsmath}
+\usepackage{listings}
 \begin{document}
 \title{Naive Bayes}
 \author{Jason Shipp}
@@ -26,7 +27,7 @@ and apply Bayes Law anyway. This is where Naive Bayes comes in!
 
 \section*{Math Involved}
 
-\subsection*{Bayes Rule} \\
+\subsection*{Bayes Rule} 
 \begin{equation}
   \text{Let } x = (x_1, x_2, ..., x_n) \\
   p(C_k | x) = \frac{p(C_k)p(x | C_k)}{p(x)}\\
@@ -41,4 +42,7 @@ and apply Bayes Law anyway. This is where Naive Bayes comes in!
 \section*{Code}
 \subsection*{Scikit-Learn}
 % TODO block off correct area
-\lstinputlisting[language=Python]{../Code/NaiveBayes.py} 
+\lstinputlisting[language=Python]{../../Code/NaiveBayes.py} 
+
+
+\end{document}

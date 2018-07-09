@@ -102,6 +102,11 @@ class NaiveBayesClassifier:
         priors = np.log(np.array([1.0/nb_classes] * nb_classes))
         joint_likelihood = tf.add(priors, cond_probs)
 #TODO
-        norm_factor = tf.reduce logsumexp
+        norm_factor = tf.reduce logsumexp(joint_likelihood, axis=1, 
+                keep_dims=True)
+        log_prob = joint_likelihood - norm_factor
+        return tf.exp(log_prob)
+
+#TODO Use classifier, later
 
 
