@@ -12,7 +12,7 @@
   * [Dimensionality Reduction](Math/Dimensionality.md)
 
   ### Algorithms
-  * [Naive Bayes](Algorithms/NaiveBayes.md)
+  * [Naive Bayes](Algorithms/PDFs/NaiveBayes.pdf)
   * KNN
   * Alternative Clustering
   * Linear Regression
