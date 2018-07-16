@@ -32,6 +32,10 @@
   * I don't know much here, I'll put more when/if I do
 
   ### Visualization
+  * TODO
+
+  ### Python
+  * [Reader](Algorithms/PDFs/Python.pdf) 
 
 ## Packages / Tooling to Learn
   ### Scikit-Learn
