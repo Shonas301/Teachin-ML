@@ -35,7 +35,7 @@
   * TODO
 
   ### Python
-  * [Reader](Algorithms/PDFs/Python.pdf) 
+  * [Reader](Code/PythonReader) 
 
 ## Packages / Tooling to Learn
   ### Scikit-Learn
