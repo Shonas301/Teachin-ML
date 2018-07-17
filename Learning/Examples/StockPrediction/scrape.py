@@ -30,7 +30,7 @@ class SaveData():
         Returns:
             None.
         """
-        ts = TimeSeries(key=self.key, output_format='pandas')
+        ts = TimeSeries(key=self.key, output_format='pandas', indexing_type='integer')
         if scope > 2 or scope < 0:
             raise ValueError('Scope is not within valid range, check documentation')
         data, meta_data = {
