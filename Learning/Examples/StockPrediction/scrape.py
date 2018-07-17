@@ -46,8 +46,10 @@ def main():
     ticker = sys.argv[1]
     if len(sys.argv) > 2:
         scope = sys.argv[2]
+    else:
+        scope = 0
     scraper = SaveData()
-    scraper.saveTicker(ticker,scope=scope)
+    scraper.scrapeTicker(ticker,scope=scope)
 
 if __name__ == "__main__":
     main()
