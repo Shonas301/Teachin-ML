@@ -5,6 +5,15 @@
 pip install alpha_vantage
 ```
 
+
+## Usage
+For usage in this repo, store your alpha vantage key (obtained for free on their
+website) in the standard config style under:
+```
+[AlphaVantage]
+key = YOUR_KEY_HERE
+```
+
 ## Time Series Methods
 ```python
 ts.get_batch_stock_quotes()
