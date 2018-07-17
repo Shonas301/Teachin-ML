@@ -1,6 +1,7 @@
 from alpha_vantage.timeseries import TimeSeries
 import configparser
 from pprint import pprint
+import sys
 
 class SaveData():
     def __init__(self):
@@ -40,4 +41,14 @@ class SaveData():
                 }[scope](symbol=ticker, outputsize='full')
         file_name = ticker+'.csv'
         data.to_csv(file_name)
+
+def main():
+    ticker = sys.argv[1]
+    if len(sys.argv) > 2:
+        scope = sys.argv[2]
+    scraper = SaveData()
+    scraper.saveTicker(ticker,scope=scope)
+
+if __name__ == "__main__":
+    main()
 
