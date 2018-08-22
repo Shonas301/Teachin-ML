@@ -16,3 +16,5 @@ James F. Allen.
 | X f Y, Y fi X | X finishes Y           |
 | X = Y         | X is Equal to Y        |
 
+Allen's Temporal Logic is
+

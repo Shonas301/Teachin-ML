@@ -2,4 +2,5 @@ Learning/Algorithms/LatexTrash
 *_minted*
 *.ini
 *.csv
+*.tex
 __pycache__
