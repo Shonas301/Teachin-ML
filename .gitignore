@@ -3,4 +3,6 @@ Learning/Algorithms/LatexTrash
 *.ini
 *.csv
 *.tex
+*.aux
+*.log
 __pycache__
